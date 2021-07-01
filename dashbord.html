@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Track | Inicial</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+            <div class="container-fluid">
+                <aside class="d-inline-flex p-2 bd-highlight">
+                    <button class="btn btn-img p-0" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button">
+                        <img class="rounded-circle" src="https://source.unsplash.com/70x70/?woman"
+                            alt="logo da loja">
+                    </button>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample">
+                        <div class="offcanvas-header container-fluid bg-warning">
+                            <img class="rounded-circle me-3" src="https://source.unsplash.com/70x70/?woman"
+                                alt="logo da loja">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Maria Silva</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="btn-group-vertical w-100">
+                                <a href="#" class="mb-4 text-decoration-none">Trocar Foto</a>
+                                <a href="#" class="mb-4 text-decoration-none ">Configurações do Aplicativo</a>
+                                <a href="#" class="mb-4 text-decoration-none">Ajuda</a>
+                                <a href="index.html" class="mb-4">Sair</a>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <a class="navbar-brand" href="dashbord.html">Health Track</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="dashbord.html">Home</a>
+                        <a class="nav-link" href="exercises.html">Exercícios</a>
+                        <a class="nav-link disabled" href="#">Alimentação</a>
+                        <a class="nav-link disabled" href="#">Alertas</a>
+                        <a class="nav-link disabled" href="#">Evolução</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="img-fluid" alt="alimentos saudáveis"></div>
+    </section>
+    <section class="mt-4">
+        <div class="container">
+            <div class="row justify-content-center mb-4">
+                <h2 class="col-md-6 text-center">Dicas para sua saúde!</h2>
+            </div>
+            <div class="row mx-5">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img id="beterraba" src="Imagens/beterraba.jpg" class="card-img-top" alt="Benefícios Beterraba">
+                        <div class="card-body">
+                            <h5 class="card-title">Benefícios da Beterraba</h5>
+                            <p class="card-text">A beterraba já é conhecida como uma aliada dos treinos. Mas os benefícios desse vegetal não param por aí.</p>
+                            <a target="blanck"
+                                href="https://www.uol.com.br/vivabem/noticias/redacao/2017/11/19/do-emagrecimento-a-melhora-do-sexo-6-razoes-para-comer-mais-beterraba.htm"
+                                class="btn btn-warning text-white">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img id="alongamento" src="Imagens/alongamento.jpg" class="card-img-top"
+                            alt="Benefícios Alongamento">
+                        <div class="card-body">
+                            <h5 class="card-title">Alongamento</h5>
+                            <p class="card-text">O alongamento é de suma importância para manutenção da qualidade de vida.</p>
+                            <a target="blanck"
+                                href="https://www.hammeracademia.com/blog/2018/02/22/10-beneficios-do-alongamento-muscular.html"
+                                class="btn btn-warning text-white">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img id="treino" src="Imagens/treino.jpg" class="card-img-top" alt="Treino 15 minutos">
+                        <div class="card-body">
+                            <h5 class="card-title">Treinos de 15 minutos</h5>
+                            <p class="card-text">Já pensou em treinar em casa de forma eficiente e por apenas 15 minutos?
+                            </p>
+                            <a target="blanck"
+                                href="https://horadotreino.com.br/treino-de-15-minutos-para-fazer-em-casa/"
+                                class="btn btn-warning text-white ">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <div class="container-fluid bg-warning mt-4 p-3">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="mb-0">Desenvolvido por Mayara Bomfim</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

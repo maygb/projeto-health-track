@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Track | Inicial</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+            <div class="container-fluid">
+                <aside class="d-inline-flex bd-highlight">
+                    <button class="btn btn-img p-0" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button">
+                        <img class="rounded-circle" src="https://source.unsplash.com/70x70/?woman"
+                            alt="logo da loja">
+                    </button>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample">
+                        <div class="offcanvas-header container-fluid bg-warning">
+                            <img class="rounded-circle me-3" src="https://source.unsplash.com/70x70/?woman"
+                                alt="logo da loja">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Maria Silva</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="btn-group-vertical w-100">
+                                <a href="#" class="mb-4 text-decoration-none">Trocar Foto</a>
+                                <a href="#" class="mb-4 text-decoration-none ">Configurações do Aplicativo</a>
+                                <a href="#" class="mb-4 text-decoration-none">Ajuda</a>
+                                <a href="index.html" class="mb-4">Sair</a>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <a class="navbar-brand" href="dashbord.html">Health Track</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="dashbord.html">Home</a>
+                        <a class="nav-link disabled" href="#">Alimentação</a>
+                        <a class="nav-link disabled" href="#">Alertas</a>
+                        <a class="nav-link disabled" href="#">Evolução</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container mt-4">
+        <div class="row justify-content-md-center">
+            <form class="col-md-4 mb-4">
+                <select class="form-select mb-4" aria-label="Default select example">
+                    <option selected>Selecione o Exercício</option>
+                    <option value="1">Abdominas</option>
+                    <option value="2">Aeróbica</option>
+                    <option value="3">Agachamento</option>
+                    <option value="4">Alongamento</option>
+                    <option value="5">Caminhada</option>
+                    <option value="6">Corrida</option>
+                    <option value="7">Musculação Superior</option>
+                    <option value="8">Musculação Inferior</option>
+                    <option value="9">Yoga</option>
+                    <option value="10">Zumba</option>
+                </select>
+
+                <div class="mb-4">
+                    <label for="dtexercicio" class="form-label">Data: </label>
+                    <input type="date" class="form-control" id="dtexercicio" placeholder="24/02/1995">
+                </div>
+
+                <div class="mb-4">
+                    <label for="duracao" class="form-label">Duração: </label>
+                    <input type="time" class="form-control" id="duracao">
+                </div>
+                <div class="mb-4">
+                    <label for="calorias" class="form-label">Calorias: </label>
+                    <input type="number" class="form-control" id="calorias" placeholder="140 kcal">
+                </div>
+
+                <div class="d-grid gap-2 mt-4">
+                    <a href="list_exercises.html" id="button" type="submit" class="btn btn-warning btn-lg">Cadastrar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid bg-warning mt-4 p-3">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="mb-0">Desenvolvido por Mayara Bomfim</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

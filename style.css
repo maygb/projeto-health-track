@@ -1,0 +1,61 @@
+body{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    color: rgb(61, 55, 55);
+}
+
+.navbar a{
+    color: rgb(61, 55, 55);
+}
+
+#nome_home{
+    font-size: 24px;
+}
+
+.img-fluid{
+    display: block;
+    background-repeat: no-repeat;
+    background-image:url(Imagens/dashbord.jpg);
+    height: 400px;
+    width: 100%;
+}
+
+
+
+
+.bgimage{
+    background-image: url(Imagens/capa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#card_login{
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+.card-header{
+    font-size: 28px;
+    color: #ffc107;
+}
+
+#button{
+    font-size: 20px;
+    color: white;
+}
+
+.form-check{
+    color: white;
+}
+
+.card-footer{
+    color: white;
+}
+
+
+.card-text{
+    height: 150px;
+}
+
